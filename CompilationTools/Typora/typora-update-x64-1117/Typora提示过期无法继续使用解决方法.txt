@@ -1,0 +1,4 @@
+1. Win+R调用运行窗口，输入regedit命令进入注册表界面
+2. 找到这个路径：计算机\HKEY_CURRENT_USER\SOFTWARE\Typora
+3. 右键Typora选择“权限(P)”
+4. 将Administrator的权限选为拒绝
