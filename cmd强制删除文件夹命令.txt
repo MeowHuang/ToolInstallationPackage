@@ -1,0 +1,11 @@
+1.通过管理员打开‘cmd’
+2.进入到对应要删除的文件夹目录下，如（此处我要删除D盘该‘D:\Software\nodejs\workspace’目录下的‘demo’文件夹）
+3.命令
+
+d:
+cd D:\Software\nodejs\workspace
+
+//先删空‘demo’文件下的所有子目录文件
+
+del D:\Software\nodejs\workspace\demo\*
+rd /S D:\Software\nodejs\workspace\demo
